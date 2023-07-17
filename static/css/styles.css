@@ -1,0 +1,148 @@
+/* static/css/styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Navigation styles */
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  /* Form styles */
+  form {
+    margin-top: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Snack List styles */
+  .snack-list {
+    margin-top: 20px;
+  }
+  
+  .snack-card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+  }
+  
+  .snack-card h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .snack-card p {
+    margin-bottom: 10px;
+  }
+  
+  .snack-card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Snack Detail styles */
+  .snack-detail {
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .snack-detail h2 {
+    margin-top: 0;
+  }
+  
+  /* Back and Update button styles */
+  .back-button,
+  .update-button {
+    display: inline-block;
+    background-color: #ccc;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .back-button:hover,
+  .update-button:hover {
+    background-color: #aaa;
+  }
+  
+  /* Create New Snack button style */
+  .create-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .create-button:hover {
+    background-color: #0056b3;
+  }
+  
